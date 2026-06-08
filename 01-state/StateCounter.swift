@@ -5,17 +5,18 @@ struct StateCounter: View {
     
     var body: some View {
         VStack {
-            Text("mini counter :)")
-            Spacer(4)
+            Text("Mini counter")
+                .padding(50)
+                
             Text(count)
             HStack {
-                Button("+1"action: {count += 1})
+                Button("+1", action: {count += 1})
+                    .padding(30)
                 Button("-1"action: {count -= 1})
+                    .padding(30)
             }
-            Spacer()
+            Button("Reset", action: {count = 0})
             
         }
     }
-
-
 }
