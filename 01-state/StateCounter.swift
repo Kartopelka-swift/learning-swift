@@ -12,7 +12,7 @@ struct StateCounter: View {
             HStack {
                 Button("+1", action: {count += 1})
                     .padding(30)
-                Button("-1"action: {count -= 1})
+                Button("-1", action: {count -= 1})
                     .padding(30)
             }
             Button("Reset", action: {count = 0})
