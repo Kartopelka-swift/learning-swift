@@ -16,31 +16,18 @@ https://miniswift.run/
 
 Зміст документації
 learning-swift/
-
 ├── README.md
-
 ├── docs/
-
 │   ├── 01-swift-basics/
-
 │   ├── 02-closures/
-
 │   ├── 03-swiftui-basics/
-
 │   ├── 04-state-and-data/
-
 │   ├── 05-layout/
-
 │   ├── 06-view-modifiers/
-
 │   ├── 07-lists-and-navigation/
-
 │   └── 08-mini-projects/
-
 ├── exercises/
-
 └── mini-habits/
-
 
 1. Основи Swift
    01-swift-basics/
